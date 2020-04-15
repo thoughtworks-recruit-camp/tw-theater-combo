@@ -10,7 +10,7 @@
 }
 
 #side-bar h2 {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 20px;
   color: #222;
   font-weight: bold;
@@ -25,7 +25,7 @@
 
 #side-bar li {
   width: 80px;
-  font-size: 12px;
+  font-size: 14px;
   margin: 8px auto;
   padding: 3px;
   border-radius: 2px;

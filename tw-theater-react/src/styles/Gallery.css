@@ -1,0 +1,137 @@
+.loading-mask p {
+  font-size: 32px;
+  position: relative;
+  left: 50vw;
+  top: 50vh;
+  animation: breath 1s infinite;
+}
+
+@keyframes breath {
+  from {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.1;
+  }
+}
+
+#gallery {
+  position: absolute;
+  left: 180px;
+  top: 0;
+  padding-top: 80px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background: linear-gradient(90deg, #eee, #aaa);
+  color: #444;
+  animation: fade-in 1s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#gallery .movie-tile {
+  position: relative;
+  margin: 20px;
+  width: 200px;
+  height: 360px;
+  text-align: center;
+}
+
+#gallery .movie-tile img {
+  box-shadow: 1px 1px 2px 1px #0004;
+}
+
+#gallery .rating-tag {
+  z-index: 2;
+  display: inline-block;
+  position: absolute;
+  margin: 4px;
+  padding: 4px;
+  background: #000b;
+  border-radius: 2px;
+  color: white;
+  font-size: 12px;
+  bottom: 60px;
+  right: 0;
+  width: 80px;
+}
+
+#gallery .brief-box {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 300px;
+  background-color: #222a;
+  opacity: 0;
+  transition: opacity ease 250ms;
+  text-align: left;
+  font-size: 12px;
+  color: white;
+}
+
+#gallery .brief-box:hover {
+  opacity: 1;
+}
+
+#gallery .brief-box ul,
+#gallery .brief-box li {
+  list-style: none;
+  padding: 0;
+  margin: 8px;
+}
+
+#gallery .brief-box ul {
+  margin: auto;
+  padding: 8px;
+}
+
+#gallery .brief-box p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 12;
+  word-break: break-all;
+  line-height: 14px;
+}
+
+#gallery .details-button {
+  display: block;
+  margin: 0 auto;
+  padding: 2px;
+  width: 80px;
+  border-radius: 2px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #222;
+  cursor: pointer;
+}
+
+
+#gallery .details-button:hover {
+  background-color: #444;
+}
+
+#gallery .details-button:active {
+  background-color: #888;
+}
+
+#gallery .movie-tile h3 {
+  margin: 8px;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 1px 1px #6666;
+}

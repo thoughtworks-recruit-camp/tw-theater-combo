@@ -1,0 +1,37 @@
+{
+  "id": "1616889",
+  "name": "tw-theater",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "150110",
+      "name": "tag",
+      "font_class": "tag",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "7683850",
+      "name": "sort",
+      "font_class": "sort",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "8474363",
+      "name": "shuffle",
+      "font_class": "shuffle",
+      "unicode": "e6d4",
+      "unicode_decimal": 59092
+    },
+    {
+      "icon_id": "12578978",
+      "name": "tags",
+      "font_class": "tags",
+      "unicode": "e6fe",
+      "unicode_decimal": 59134
+    }
+  ]
+}

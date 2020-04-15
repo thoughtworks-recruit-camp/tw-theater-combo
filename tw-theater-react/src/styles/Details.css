@@ -1,0 +1,105 @@
+#details {
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+  animation: fade-in 1s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#details h2 {
+  margin: 20px;
+  font-size: 32px;
+  color: #222;
+}
+
+#details .info {
+  display: flex;
+}
+
+#details .poster {
+  flex: 0 0 300px;
+  margin-right: 20px;
+  box-shadow: 2px 2px 5px 2px #0006;
+}
+
+#details .info-text {
+  flex: 0 0 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#details .photos {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow: hidden;
+  height: 340px;
+}
+
+#details h3 {
+  margin: 20px;
+  align-self: flex-start;
+  background: #222;
+  color: #eee;
+  padding: 6px 12px;
+  border-radius: 3px;
+  width: auto;
+}
+
+#details .summary {
+  text-align: justify;
+  text-indent: 2em;
+  line-height: 32px;
+  padding: 12px;
+}
+
+#details .photo-header {
+  width: 160px;
+  text-align: center;
+  margin: 8px;
+}
+
+#details .photo-header a {
+  color: #888;
+}
+
+#details .photo-container {
+  display: flex;
+  align-items: center;
+}
+
+#details .photo-container img {
+  margin: 8px;
+
+}
+
+#details .recommends {
+  display: flex;
+}
+
+#details .recommend-items {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  flex-grow: 1;
+  text-align: center;
+  box-shadow: 1px 1px 2px 1px #0004;
+}
+
+#details .recommend-items p {
+  margin: 8px auto;
+  height: auto;
+  font-size: 16px;
+  font-weight: bold;
+}
